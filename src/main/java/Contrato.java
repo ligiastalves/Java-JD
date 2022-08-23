@@ -36,4 +36,7 @@ public interface Contrato {
             p.dirigir();
         }
     }
+    /*Uma interface é um contrato entre classes cujo principal
+    objetivo é promover o baixo acoplamento para as suas interações.
+     */
 }
