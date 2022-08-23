@@ -48,7 +48,7 @@ public class Composicao {
     }
     public class TesteAtribuicao{
 
-        public static void main(String [] args){
+        public void main(String [] args){
             Universidade universidade = new Universidade();
             Professor p1 = new Professor("José", "Doutor");
             Professor p2 = new Professor("Maria", "Doutora");
