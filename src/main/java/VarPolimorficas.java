@@ -5,7 +5,7 @@ public class VarPolimorficas {
 
     //Uma variável polimórfica é uma variável de referência capaz de referenciar
     // diferentes (múltiplos, daí o seu nome) tipos de objetos.
-    class Animal{
+    static class Animal{
         public void fazerBarulho(){
             System.out.println("Animal fazendo barulho");
         }
@@ -21,7 +21,7 @@ public class VarPolimorficas {
         }
     }
     public class Polimorfismo{
-        public static void main(String[] args){
+        public void main(String[] args){
             List animais = new ArrayList<>();
             animais.add(new Gato());
             animais.add(new Gato());
