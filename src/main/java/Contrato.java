@@ -27,7 +27,7 @@ public interface Contrato {
             this.veiculo = veiculo;
         }
     }
-    public class Contratos{
+    class Contratos{
         public static void main (String[] args){
             Pessoa p = new Pessoa();
             p.setVeiculo(new Fusca());

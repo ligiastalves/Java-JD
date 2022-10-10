@@ -26,11 +26,12 @@ public class VarPolimorficas {
             animais.add(new Gato());
             animais.add(new Gato());
             animais.add(new Cachorro());
-            for (Animal animal : animais)
+            /*for (Animal animal : animais)
             //polimorfismo dinamico aqui
             //em tempo de execucao, a JVM decide qual
             //metodo chamar em funcao do tipo do objeto
             animal.fazerBarulho();
+            */
 
         }
     }
